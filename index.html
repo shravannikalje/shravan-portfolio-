@@ -84,6 +84,57 @@
       font-weight: 500;
     }
 
+    /* Industry Experience & Hub Visits */
+    .exp-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 14px;
+      margin-top: 12px;
+    }
+
+    .exp-card {
+      background: #0f172a;
+      padding: 16px;
+      border-radius: 8px;
+      border-left: 3px solid #38bdf8;
+    }
+
+    .exp-card h4 {
+      color: #f1f5f9;
+      font-size: 1rem;
+      margin-bottom: 6px;
+    }
+
+    .exp-card p {
+      color: #94a3b8;
+      font-size: 0.88rem;
+    }
+
+    .visit-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-top: 12px;
+    }
+
+    .visit-item {
+      background: #0f172a;
+      padding: 14px;
+      border-radius: 8px;
+      border: 1px solid #334155;
+    }
+
+    .visit-title {
+      font-weight: 600;
+      color: #38bdf8;
+      margin-bottom: 4px;
+    }
+
+    .visit-desc {
+      color: #94a3b8;
+      font-size: 0.88rem;
+    }
+
     .project-card {
       background: #0f172a;
       padding: 18px;
@@ -195,7 +246,55 @@
       </div>
     </section>
 
-    <!-- Projects -->
+    <!-- Cross-Industry Exposure -->
+    <section id="experience">
+      <h2>Cross-Industry Exposure</h2>
+      <p style="color: #94a3b8; font-size: 0.95rem; margin-bottom: 12px;">
+        Hands-on experience and operational understanding across diverse engineering and business sectors:
+      </p>
+      <div class="exp-grid">
+        <div class="exp-card">
+          <h4>💻 Information Technology (IT)</h4>
+          <p>Full-stack web applications, front-end architecture, digital tools, and scalable software workflow.</p>
+        </div>
+        <div class="exp-card">
+          <h4>💊 Pharmaceutical Industry</h4>
+          <p>Exposure to operational standards, quality processes, and tech integrations in pharma manufacturing environments.</p>
+        </div>
+        <div class="exp-card">
+          <h4>🚗 Automotive &amp; Car Manufacturing</h4>
+          <p>Insight into industrial assembly lines, automotive production workflows, and manufacturing systems.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tech & Industrial Hub Expeditions -->
+    <section id="industry-hubs">
+      <h2>Tech &amp; Industrial Hub Expeditions</h2>
+      <p style="color: #94a3b8; font-size: 0.95rem; margin-bottom: 12px;">
+        Key visits to premier technology ecosystems and major industrial clusters:
+      </p>
+      <div class="visit-list">
+        <div class="visit-item">
+          <div class="visit-title">📍 Bengaluru — Silicon Valley of India</div>
+          <div class="visit-desc">Explored leading tech ecosystems, startup incubation networks, and cutting-edge software engineering culture.</div>
+        </div>
+        <div class="visit-item">
+          <div class="visit-title">📍 Hyderabad — Premier IT Sector &amp; Cyberabad</div>
+          <div class="visit-desc">Observed massive enterprise tech hubs, global capability centers, and modern IT infrastructure.</div>
+        </div>
+        <div class="visit-item">
+          <div class="visit-title">📍 Visakhapatnam — Major Pharmaceutical &amp; Industrial Hub</div>
+          <div class="visit-desc">Engaged with bulk-drug manufacturing environments, coastal chemical export zones, and industrial supply chains.</div>
+        </div>
+        <div class="visit-item">
+          <div class="visit-title">📍 Goa &amp; Coastal Industrial Corridors</div>
+          <div class="visit-desc">Studied regional supply chain logistics and industrial growth corridors.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Projects -->
     <section id="projects">
       <h2>Featured Projects</h2>
 
@@ -246,7 +345,7 @@
         </div>
       </div>
 
-            <!-- Project 4: IT Training Institute Website -->
+      <!-- Project 4: IT Training Institute Website -->
       <div class="project-card">
         <h3>4. 💻 IT Training Institute Website</h3>
         <p>A responsive coaching and educational portal for an IT institute, showcasing technical courses, modern syllabus details, batch schedules, and student admission inquiry options.</p>
@@ -261,11 +360,6 @@
           <a href="https://github.com/shravannikalje/IT-Training-Institute-Website" target="_blank" class="p-btn code-btn">View Code ↗</a>
         </div>
       </div>
-      
-
-      
-
-      
 
       <!-- Project 5: Personal Developer Portfolio -->
       <div class="project-card">
@@ -301,7 +395,7 @@
     </section>
 
     <footer>
-      <p>© 2026 Shravan Nikalaje. Built &amp; Hosted on GitHub Pages.</p>
+      <p>© 2026 Shravan Nikalaje. All rights reserved. Released under the MIT License.</p>
     </footer>
   </div>
 </body>
