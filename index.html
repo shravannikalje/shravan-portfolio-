@@ -104,31 +104,6 @@
       margin-bottom: 10px;
     }
 
-    .project-links a {
-      color: #38bdf8;
-      text-decoration: none;
-      font-size: 0.9rem;
-      font-weight: 600;
-      margin-right: 15px;
-    }
-
-    .contact-item {
-      margin-bottom: 10px;
-      color: #cbd5e1;
-    }
-
-    .contact-item a {
-      color: #38bdf8;
-      text-decoration: none;
-    }
-
-    footer {
-      text-align: center;
-      color: #64748b;
-      font-size: 0.85rem;
-      padding: 20px 0;
-    }
-
     .tech-tags {
       display: flex;
       flex-wrap: wrap;
@@ -171,23 +146,43 @@
       color: #38bdf8;
       border: 1px solid #38bdf8;
     }
+
+    .contact-item {
+      margin-bottom: 10px;
+      color: #cbd5e1;
+    }
+
+    .contact-item a {
+      color: #38bdf8;
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      color: #64748b;
+      font-size: 0.85rem;
+      padding: 20px 0;
+    }
   </style>
 </head>
 <body>
   <div class="container">
+    <!-- Header -->
     <header>
       <h1>Shravan Nikalaje</h1>
       <p class="tagline">First-Year Computer Engineering Student | Aspiring Full-Stack Developer</p>
       <a href="#contact" class="btn">Get in Touch</a>
     </header>
 
+    <!-- About Me -->
     <section id="about">
       <h2>About Me</h2>
       <p>
-        Hello 👋 My name is <strong>Shravan Nikalaje</strong>. I am a First-Year Computer Engineering student and an aspiring Full-Stack Developer. My coding journey began back in 9th grade, giving me a strong foundation in problem-solving and building user-focused digital experiences.
+        Hello 👋 My name is <strong>Shravan Nikalaje</strong>. I am a First-Year Computer Engineering student and an aspiring Full-Stack Developer. My coding journey began back in 9th grade, giving me solid foundational knowledge and hands-on exposure to how modern IT products are built and scaled. I am driven by learning emerging tech, creating impactful web applications, and contributing to meaningful developer projects.
       </p>
     </section>
 
+    <!-- Skills -->
     <section id="skills">
       <h2>Skills &amp; Technologies</h2>
       <div class="skills-list">
@@ -200,28 +195,46 @@
       </div>
     </section>
 
+    <!-- Projects -->
     <section id="projects">
       <h2>Featured Projects</h2>
 
+      <!-- Project 1: EcoSafai -->
       <div class="project-card">
-        <h3>GoCar — Ride Booking Application</h3>
-        <p>A full-stack ride booking platform featuring vehicle discovery, user booking management, and responsive UI built using React and Node.js.</p>
-        <div class="project-links">
-          <a href="#" target="_blank">Live Demo ↗</a>
-          <a href="#" target="_blank">GitHub Code ↗</a>
+        <h3>🧹 EcoSafai — Home Cleaning Services</h3>
+        <p>An on-demand home cleaning service booking platform connecting users with eco-friendly cleaning professionals. Built with interactive booking options, service catalogs, and an intuitive UI.</p>
+        
+        <div class="tech-tags">
+          <span class="tag">Web Development</span>
+          <span class="tag">UI/UX</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">Responsive</span>
+        </div>
+
+        <div class="project-btn-group">
+          <a href="https://share.google/qXsO4bRDPOHvjkJ6Q" target="_blank" class="p-btn live-btn">Live Preview ↗</a>
         </div>
       </div>
 
+      <!-- Project 2: Developer Portfolio -->
       <div class="project-card">
-        <h3>Developer Portfolio Website</h3>
-        <p>A mobile-first responsive portfolio hosted on GitHub Pages to showcase tech skills, practical engineering projects, and contact info.</p>
-        <div class="project-links">
-          <a href="#" target="_blank">Live Demo ↗</a>
-          <a href="#" target="_blank">GitHub Code ↗</a>
+        <h3>💼 Personal Developer Portfolio</h3>
+        <p>A mobile-first responsive portfolio hosted on GitHub Pages to showcase tech skills, engineering projects, and contact info.</p>
+        
+        <div class="tech-tags">
+          <span class="tag">HTML5</span>
+          <span class="tag">CSS3</span>
+          <span class="tag">GitHub Pages</span>
+        </div>
+
+        <div class="project-btn-group">
+          <a href="https://shravannikalje.github.io/shravan-portfolio-/" target="_blank" class="p-btn live-btn">Live Preview ↗</a>
+          <a href="https://github.com/shravannikalje/shravan-portfolio-" target="_blank" class="p-btn code-btn">View Code ↗</a>
         </div>
       </div>
     </section>
 
+    <!-- Contact -->
     <section id="contact">
       <h2>Contact Me</h2>
       <div class="contact-item">
