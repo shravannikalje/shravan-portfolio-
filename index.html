@@ -11,30 +11,36 @@
       padding: 0;
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
     }
+
     body {
       background-color: #0f172a;
       color: #e2e8f0;
       line-height: 1.6;
       padding: 20px;
     }
+
     .container {
       max-width: 800px;
       margin: 0 auto;
     }
+
     header {
       padding: 40px 0 20px;
       text-align: center;
     }
+
     h1 {
       font-size: 2.2rem;
       color: #38bdf8;
       margin-bottom: 8px;
     }
+
     .tagline {
       font-size: 1.1rem;
       color: #94a3b8;
       margin-bottom: 16px;
     }
+
     .btn {
       display: inline-block;
       background: #38bdf8;
@@ -45,6 +51,7 @@
       font-weight: 600;
       margin-top: 10px;
     }
+
     section {
       background: #1e293b;
       padding: 24px;
@@ -52,6 +59,7 @@
       margin-bottom: 24px;
       border: 1px solid #334155;
     }
+
     h2 {
       color: #f8fafc;
       font-size: 1.4rem;
@@ -60,11 +68,13 @@
       display: inline-block;
       padding-bottom: 4px;
     }
+
     .skills-list {
       display: flex;
       flex-wrap: wrap;
       gap: 10px;
     }
+
     .skill-tag {
       background: #334155;
       color: #38bdf8;
@@ -73,6 +83,7 @@
       font-size: 0.9rem;
       font-weight: 500;
     }
+
     .project-card {
       background: #0f172a;
       padding: 18px;
@@ -80,16 +91,19 @@
       margin-bottom: 16px;
       border-left: 4px solid #38bdf8;
     }
+
     .project-card h3 {
       color: #f1f5f9;
       font-size: 1.15rem;
       margin-bottom: 6px;
     }
+
     .project-card p {
       color: #94a3b8;
       font-size: 0.95rem;
       margin-bottom: 10px;
     }
+
     .project-links a {
       color: #38bdf8;
       text-decoration: none;
@@ -97,19 +111,65 @@
       font-weight: 600;
       margin-right: 15px;
     }
+
     .contact-item {
       margin-bottom: 10px;
       color: #cbd5e1;
     }
+
     .contact-item a {
       color: #38bdf8;
       text-decoration: none;
     }
+
     footer {
       text-align: center;
       color: #64748b;
       font-size: 0.85rem;
       padding: 20px 0;
+    }
+
+    .tech-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin: 10px 0 14px;
+    }
+
+    .tech-tags .tag {
+      background: #1e293b;
+      color: #94a3b8;
+      font-size: 0.78rem;
+      padding: 3px 8px;
+      border-radius: 4px;
+      border: 1px solid #334155;
+    }
+
+    .project-btn-group {
+      display: flex;
+      gap: 12px;
+      margin-top: 10px;
+    }
+
+    .p-btn {
+      display: inline-block;
+      padding: 8px 16px;
+      border-radius: 6px;
+      font-size: 0.88rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: 0.2s;
+    }
+
+    .live-btn {
+      background: #38bdf8;
+      color: #0f172a;
+    }
+
+    .code-btn {
+      background: transparent;
+      color: #38bdf8;
+      border: 1px solid #38bdf8;
     }
   </style>
 </head>
@@ -124,12 +184,12 @@
     <section id="about">
       <h2>About Me</h2>
       <p>
-        Hello 👋 My name is <strong>Shravan Nikalaje</strong>. I am a First-Year Computer Engineering student and an aspiring Full-Stack Developer. My coding journey began back in 9th grade, giving me solid foundational knowledge and hands-on exposure to how modern IT products are built and scaled. I am driven by learning emerging tech, creating impactful web applications, and contributing to meaningful developer projects.
+        Hello 👋 My name is <strong>Shravan Nikalaje</strong>. I am a First-Year Computer Engineering student and an aspiring Full-Stack Developer. My coding journey began back in 9th grade, giving me a strong foundation in problem-solving and building user-focused digital experiences.
       </p>
     </section>
 
     <section id="skills">
-      <h2>Skills & Technologies</h2>
+      <h2>Skills &amp; Technologies</h2>
       <div class="skills-list">
         <span class="skill-tag">HTML5 / CSS3</span>
         <span class="skill-tag">JavaScript</span>
@@ -139,28 +199,7 @@
         <span class="skill-tag">Git / GitHub</span>
       </div>
     </section>
-     <section id="projects">
-      <h2>Featured Projects</h2>
 
-      <div class="project-card">
-        <h3>GoCar — Ride Booking Application</h3>
-        <p>A full-stack ride booking platform featuring vehicle discovery, user booking management, and responsive UI built using React and Node.js.</p>
-        <div class="project-links">
-          <a href="#" target="_blank">Live Demo ↗</a>
-          <a href="#" target="_blank">GitHub Code ↗</a>
-        </div>
-      </div>
-
-      <div class="project-card">
-        <h3>Developer Portfolio Website</h3>
-        <p>A mobile-first responsive portfolio hosted on GitHub Pages to showcase tech skills, practical engineering projects, and contact info.</p>
-        <div class="project-links">
-          <a href="#" target="_blank">Live Demo ↗</a>
-          <a href="#" target="_blank">GitHub Code ↗</a>
-        </div>
-      </div>
-     </section>
-    
     <section id="projects">
       <h2>Featured Projects</h2>
 
@@ -200,46 +239,8 @@
     </section>
 
     <footer>
-      <p>© 2026 Shravan Nikalaje. Built & Hosted on GitHub Pages.</p>
+      <p>© 2026 Shravan Nikalaje. Built &amp; Hosted on GitHub Pages.</p>
     </footer>
   </div>
 </body>
 </html>
-    .tech-tags {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 6px;
-      margin: 10px 0 14px;
-    }
-    .tech-tags .tag {
-      background: #1e293b;
-      color: #94a3b8;
-      font-size: 0.78rem;
-      padding: 3px 8px;
-      border-radius: 4px;
-      border: 1px solid #334155;
-    }
-    .project-btn-group {
-      display: flex;
-      gap: 12px;
-      margin-top: 10px;
-    }
-    .p-btn {
-      display: inline-block;
-      padding: 8px 16px;
-      border-radius: 6px;
-      font-size: 0.88rem;
-      font-weight: 600;
-      text-decoration: none;
-      transition: 0.2s;
-    }
-    .live-btn {
-      background: #38bdf8;
-      color: #0f172a;
-    }
-    .code-btn {
-      background: transparent;
-      color: #38bdf8;
-      border: 1px solid #38bdf8;
-    }
-    
