@@ -139,7 +139,28 @@
         <span class="skill-tag">Git / GitHub</span>
       </div>
     </section>
+     <section id="projects">
+      <h2>Featured Projects</h2>
 
+      <div class="project-card">
+        <h3>GoCar — Ride Booking Application</h3>
+        <p>A full-stack ride booking platform featuring vehicle discovery, user booking management, and responsive UI built using React and Node.js.</p>
+        <div class="project-links">
+          <a href="#" target="_blank">Live Demo ↗</a>
+          <a href="#" target="_blank">GitHub Code ↗</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <h3>Developer Portfolio Website</h3>
+        <p>A mobile-first responsive portfolio hosted on GitHub Pages to showcase tech skills, practical engineering projects, and contact info.</p>
+        <div class="project-links">
+          <a href="#" target="_blank">Live Demo ↗</a>
+          <a href="#" target="_blank">GitHub Code ↗</a>
+        </div>
+      </div>
+     </section>
+    
     <section id="projects">
       <h2>Featured Projects</h2>
 
@@ -184,3 +205,41 @@
   </div>
 </body>
 </html>
+    .tech-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin: 10px 0 14px;
+    }
+    .tech-tags .tag {
+      background: #1e293b;
+      color: #94a3b8;
+      font-size: 0.78rem;
+      padding: 3px 8px;
+      border-radius: 4px;
+      border: 1px solid #334155;
+    }
+    .project-btn-group {
+      display: flex;
+      gap: 12px;
+      margin-top: 10px;
+    }
+    .p-btn {
+      display: inline-block;
+      padding: 8px 16px;
+      border-radius: 6px;
+      font-size: 0.88rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: 0.2s;
+    }
+    .live-btn {
+      background: #38bdf8;
+      color: #0f172a;
+    }
+    .code-btn {
+      background: transparent;
+      color: #38bdf8;
+      border: 1px solid #38bdf8;
+    }
+    
